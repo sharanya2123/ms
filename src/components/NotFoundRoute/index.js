@@ -17,8 +17,10 @@ const NotFoundRoute = () => (
       <NxtWatchContext.Consumer>
         {value => {
           const {lightTheme, changedAttributesOnThemeChange} = value
-          const {notFoundImage, notFoundImageAlt} =
-            changedAttributesOnThemeChange()
+          const {
+            notFoundImage,
+            notFoundImageAlt,
+          } = changedAttributesOnThemeChange()
 
           return (
             <LoaderOrFailureContainer value={lightTheme}>
