@@ -4,7 +4,7 @@ import {
   FailureTextSomethingWentWrong,
   HavingTroubleText,
   RetryButton,
-} from './styledComponents'
+} from './StyledComponents'
 
 const FailureViewComponent = props => {
   const {retryFunction} = props

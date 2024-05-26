@@ -7,7 +7,7 @@ import {
   LoaderOrFailureContainer,
   FailureViewImage,
   NotFound,
-} from './styledComponents'
+} from './StyledComponents'
 
 const NotFoundRoute = () => (
   <div>

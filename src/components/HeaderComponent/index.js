@@ -38,7 +38,7 @@ import {
   SunButton,
   Icons,
   IconPopUp,
-} from './styledComponents'
+} from './StyledComponents'
 
 const HeaderComponent = props => {
   const sessionOut = () => {

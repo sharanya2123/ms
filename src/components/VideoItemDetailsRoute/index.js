@@ -28,7 +28,7 @@ import {
   ButtonContainer,
   ChannelTitle,
   ChannelSubscriber,
-} from './styledComponents'
+} from './StyledComponents'
 
 const dataFetchStatusConstants = {
   initial: 'INITIAL',

@@ -21,7 +21,7 @@ import {
   EachVideoThumbnailImage,
   TitleGame,
   GameDetails,
-} from './styledComponents'
+} from './StyledComponents'
 import NxtWatchContext from '../../Context/NxtWatchContext'
 
 const dataFetchStatusConstants = {
@@ -131,4 +131,5 @@ class GamingRoute extends Component {
     )
   }
 }
+
 export default GamingRoute

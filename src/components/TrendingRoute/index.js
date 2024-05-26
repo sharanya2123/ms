@@ -34,7 +34,7 @@ import {
   PrimitiveDotChangingScreens,
   PrimitiveDot,
   ChannelViewAndUpdatedTimeContainer,
-} from './styledComponents'
+} from './StyledComponents'
 
 const dataFetchStatusConstants = {
   initial: 'INITIAL',

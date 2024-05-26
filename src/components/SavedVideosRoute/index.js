@@ -30,7 +30,7 @@ import {
   TextNoSavedVideos,
   SavedVideosComponentContainer,
   NoSavedVideo,
-} from './styledComponents'
+} from './StyledComponents'
 
 const SavedVideosRoute = () => (
   <div>

@@ -13,7 +13,7 @@ import {
   InputField,
   ShowPassword,
   LoginButton,
-} from './styledComponents'
+} from './StyledComponents'
 
 // const LoginRoute = props =>
 class LoginRoute extends Component {
