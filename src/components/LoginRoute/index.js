@@ -67,18 +67,13 @@ class LoginRoute extends Component {
         {value => {
           const {lightTheme, changedAttributesOnThemeChange} = value
 
-          const {
-            showPasswordStatus,
-            showErrorMessage,
-            errorMessage,
-          } = this.state
+          const {showPasswordStatus, showErrorMessage, errorMessage} =
+            this.state
 
           const passwordInputType = showPasswordStatus ? 'text' : 'password'
 
-          const {
-            watchLogoImage,
-            watchLogoImageAlt,
-          } = changedAttributesOnThemeChange()
+          const {watchLogoImage, watchLogoImageAlt} =
+            changedAttributesOnThemeChange()
 
           return (
             <LoginPage value={lightTheme}>
