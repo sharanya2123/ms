@@ -21,7 +21,6 @@ const NotFoundRoute = () => (
             notFoundImage,
             notFoundImageAlt,
           } = changedAttributesOnThemeChange()
-
           return (
             <LoaderOrFailureContainer value={lightTheme}>
               <FailureViewImage
